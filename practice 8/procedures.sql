@@ -12,7 +12,7 @@ BEGIN
         RAISE EXCEPTION 'Name cannot be empty';
     END IF;
 
-    IF p_phone IS NULL OR p_phone !~ '^\\+?[0-9]{7,15}$' THEN
+    IF p_phone IS NULL OR p_phone !~ '^\+?[0-9]{7,15}$' THEN
         RAISE EXCEPTION 'Invalid phone number. Use 7 to 15 digits, optionally starting with +';
     END IF;
 
@@ -62,7 +62,7 @@ BEGIN
 
         IF v_name IS NULL OR TRIM(v_name) = ''
            OR v_phone IS NULL
-           OR v_phone !~ '^\\+?[0-9]{7,15}$'
+           OR v_phone !~ '^\+?[0-9]{7,15}$'
         THEN
             p_invalid := p_invalid || jsonb_build_array(
                 item || jsonb_build_object(
