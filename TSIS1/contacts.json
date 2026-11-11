@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Aisha",
+        "email": "aisha@gmail.com",
+        "birthday": "2005-05-10",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87777777777",
+                "type": "mobile"
+            },
+            {
+                "phone": "87001110000",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Daniel",
+        "email": "daniel@gmail.com",
+        "birthday": "2004-08-15",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87001112233",
+                "type": "mobile"
+            },
+            {
+                "phone": "87001234567",
+                "type": "mobile"
+            },
+            {
+                "phone": "87005556677",
+                "type": "mobile"
+            },
+            {
+                "phone": "87002220000",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Madina",
+        "email": "madina@gmail.com",
+        "birthday": "2005-12-20",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87775554433",
+                "type": "mobile"
+            },
+            {
+                "phone": "87003330000",
+                "type": "mobile"
+            }
+        ]
+    }
+]
